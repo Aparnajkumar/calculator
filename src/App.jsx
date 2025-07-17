@@ -26,19 +26,19 @@ function App() {
 
   return (
     <>
-      <div className="container-fluid bg-secondary " style={{ width: "100%", height: "99vh" }} >
-        <div className="row ">
-          <div className="col-md-4 "></div>
-          <div className="col-10 col-sm-8 col-md-6 col-lg-4 mt-5 shadow p-4 bg-dark d-flex flex-column align-items-center" style={{ height: "auto" }}>
+      <div className="container-fluid  bg-secondary " style={{ width: "100%", height: "99vh" }} >
+        <div className="row w-100 ms-1">
+          <div className="col-lg-4 "></div>
+          <div className=" col-sm-12 col-md-10 col-lg-4 mt-5 shadow p-3 bg-dark d-flex flex-column align-items-center border border-white" style={{ height: "420px", width:"320px" }}>
             <h3 className='text-center text-white'>CALCULATOR</h3>
             <input id='result' readonly type="text" placeholder='0' className=' ms-2 mb-3' style={{ width: "230px", textAlign: "right" }} />
-            <div className='justify-contents-evenly align-items-center m-1 ms-md-4'>
+            <div className='  m-1 ms-md-4'>
               <button onClick={() => display("7")} className='rounded border shadow  bg-light m-1' style={{ width: 43 }} type="button">7</button>
               <button onClick={() => display("8")} className='rounded border shadow  bg-light m-1' style={{ width: 43 }} type="button">8</button>
               <button onClick={() => display("9")} className='rounded border shadow  bg-light m-1' style={{ width: 43 }} type="button">9</button>
               <button onClick={() => display("*")} className='rounded border shadow  bg-warning m-1' style={{ width: 43, height: 38 }} type="button">*</button>
             </div>
-            <div className="ms-md-4">
+            <div className="ms-md-4 ">
               <button onClick={() => display("4")} className='rounded border shadow  bg-light m-1' style={{ width: 43 }} type="button">4</button>
               <button onClick={() => display("5")} className='rounded border shadow  bg-light m-1' style={{ width: 43 }} type="button">5</button>
               <button onClick={() => display("6")} className='rounded border shadow  bg-light m-1' style={{ width: 43 }} type="button">6</button>
@@ -62,7 +62,7 @@ function App() {
             </div>
           </div>
 
-          <div className="col-md-4"></div>
+          <div className="col-lg-4"></div>
         </div>
       </div>
     </>
