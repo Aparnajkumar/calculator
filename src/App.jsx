@@ -27,9 +27,9 @@ function App() {
   return (
     <>
       <div className="container-fluid  bg-secondary " style={{ width: "100%", height: "99vh" }} >
-        <div className="row w-100 ms-4">
+        <div className="row d-flex justify-content-center align-iems-center ">
           <div className="col-lg-4 "></div>
-          <div className=" col-sm-12 col-md-10 col-lg-4 mt-5 shadow p-3 bg-dark d-flex flex-column align-items-center border border-white" style={{ height: "370px", width:"320px" }}>
+          <div className=" col-sm-12 col-md-10 col-lg-4 mt-5 shadow justify-content-center p-3 bg-dark d-flex flex-column align-items-center border border-white" style={{ height: "370px", width:"320px" }}>
             <h3 className='text-center text-white'>CALCULATOR</h3>
             <input id='result' readonly type="text" placeholder='0' className=' ms-2 mb-3' style={{ width: "230px", textAlign: "right" }} />
             <div className='  m-1 ms-md-4'>
